@@ -6,25 +6,37 @@ header {
     height: 25vh;
 }
 
+.opacity {
+    background-color: rgb(184, 184, 184, 0.4);
+    border-bottom: 1px solid white;
+}
+
+.bandeau {
+    background: rgba(73, 73, 73, 0.6);
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
 .devName {
-    color: aqua;
+    color: #ffffff;
     text-align: center;
     margin: 0;
 }
 
 .devJob {
-    color: aqua;
+    color: rgb(255, 255, 255);
     text-align: center;
     margin: 0;
 }
 
 .bloc_cv {
-    border-radius: 1rem!important;
-    background-color: #AB3711;
+    color: rgb(255, 255, 255);
+    /* border-radius: 1rem!important;
+    background-color: rgb(163, 163, 163); */
 }
 
 .bloc_cv h2 {
-    color: aqua;
+    color: white;
     margin-top: 10px;
 }
 
@@ -46,9 +58,9 @@ header {
     }
 }
 
-@media ( min-width: 992px ) {
+@media ( min-width: 768px ) {
     header {
-        height: 40vh;
+        height: 50vh;
     }
     .devJob, .devName{
         font-size: 3.5rem;
@@ -60,7 +72,7 @@ header {
         height: 100vh;
     }
     .devJob, .devName{
-        font-size: 4rem;
+        font-size: 5rem;
     }
 }
 
@@ -70,7 +82,7 @@ header {
 
 .bottom {
     background-color: #09090B;
-    color: aqua;
+    color: rgb(255, 255, 255);
 }
 
 .bottom p {
@@ -79,10 +91,17 @@ header {
 }
 
 .bottom p a {
-    color: aqua;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
-.interieurBloc1 {
-    background-color: #939596;
+.backColor {
+    background: rgb(78, 78, 78, 0.95);
+}
+
+.nav-link {
+    font-size: 1.4rem;
+    padding: 10px;
+    margin: 0 15px;
+    border-bottom: 1px solid white;
 }
