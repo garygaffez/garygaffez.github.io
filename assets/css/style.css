@@ -1,5 +1,5 @@
 :root {
-    font-size: 18px;
+    font-size: 14px;
 }
 
 header {
@@ -9,13 +9,13 @@ header {
 .devName {
     color: aqua;
     text-align: center;
-    margin: auto;
+    margin: 0;
 }
 
 .devJob {
     color: aqua;
     text-align: center;
-    margin: auto;
+    margin: 0;
 }
 
 .bloc_cv {
@@ -29,7 +29,7 @@ header {
 }
 
 .bloc_cv p {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 .top{
@@ -41,11 +41,17 @@ header {
     header {
         height: 35vh;
     }
+    .devJob, .devName{
+        font-size: 3rem;
+    }
 }
 
 @media ( min-width: 992px ) {
     header {
-        height: 75vh;
+        height: 40vh;
+    }
+    .devJob, .devName{
+        font-size: 3.5rem;
     }
 }
 
@@ -53,11 +59,30 @@ header {
     header {
         height: 100vh;
     }
+    .devJob, .devName{
+        font-size: 4rem;
+    }
 }
 
 .main {
     background: linear-gradient(#09090B, #0092DD);
 }
 
+.bottom {
+    background-color: #09090B;
+    color: aqua;
+}
 
+.bottom p {
+    margin: 1rem;
+    font-size: 1.3rem;
+}
 
+.bottom p a {
+    color: aqua;
+    text-decoration: none;
+}
+
+.interieurBloc1 {
+    background-color: #939596;
+}
